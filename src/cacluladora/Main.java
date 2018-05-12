@@ -1,5 +1,5 @@
 
-
+package cacluladora;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,9 +10,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample/template.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("template.fxml"));
         primaryStage.setTitle("Calculator");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 455, 391));
         primaryStage.show();
     }
 

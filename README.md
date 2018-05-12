@@ -2,4 +2,6 @@
 Simple Calculator made with JavaFX
 
 # License
-GNU GPL v3, I do like software freedoms.
+GNU GPL v3 wherever applicable. 
+
+You basically get everything used to make this here, go crazy with it.
