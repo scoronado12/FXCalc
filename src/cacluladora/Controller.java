@@ -40,12 +40,68 @@ public class Controller {
     @FXML
     Button buttonDivide;
 
+    @FXML
+    private void enterZero(ActionEvent e){
+
+    }
+    @FXML
+    private void enterOne(ActionEvent e){
+
+
+    }
+    @FXML
+    private void enterTwo(ActionEvent e){
+
+    }
+    @FXML
+    private void enterThree(ActionEvent e){
+
+    }
+    @FXML
+    private void enterFour(ActionEvent e){
+
+    }
+    @FXML
+    private void enterFive(ActionEvent e){
+
+    }
+    @FXML
+    private void enterSix(ActionEvent e){
+
+    }
+    @FXML
+    private void enterSeven(ActionEvent e){
+
+    }
+    @FXML
+    private void enterEight(ActionEvent e){
+
+    }
+    @FXML
+    private void enterNine(ActionEvent e){
+
+    }
+    @FXML
+    private void enterMultiply(ActionEvent e){
+
+    }
+    @FXML
+    private void enterDivide(ActionEvent e){
+
+    }
+
+
+
 
 
 
 
     @FXML
     private void calculate(ActionEvent event){
+
+        int preCalc = Integer.parseInt(resultsScreen.getText());
+        resultsScreen.clear();
+
 
 
 
